@@ -1,0 +1,74 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+#display{
+ width:100%;
+ height:300px;
+ font-size: 80px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid black;
+ box-shadow: transparent;
+ color:red;
+ background-color: black;
+ border-radius: 40%;
+} */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ body
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+ }
+ .container
+ {
+    position:relative;
+    background: #df4547;
+    min-height:500px;
+    border-radius: 20px;
+    border-top-left-radius: 225px;
+    border-top-right-radius: 225px;
+    box-shadow:25px 25px 70px rgb(0,0,0,0.75), 10px 50px 70px rgb(0,0,0,0.25);
+    inset: 5px 5px 10px rgb(0,0,0,0,5); 
+    inset:5px 5px 20px rgb(0,0,0,0,2) ;
+    inset:-5px -5px 15px rgb(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+ }
+ .clock
+ {
+    position:relative;
+    width:450px;
+    height:450px;
+    background: hsl(60, 2%, 43%);
+    border-radius: 50%;
+    box-shadow: 10px 50px 70px rgb(0,0,0,0,25);
+    inset: 5px 5px 10px rgb(0,0,0,0,5); 
+    inset:5px 5px 20px rgb(0,0,0,0,2) ;
+    inset:-5px -5px 15px rgb(0,0,0,0.75)
+ }
+ p{
+  width:250px;
+  height:70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 220px 105px;
+  font-size: 50px;
+  color:rgb(226, 10, 10);
+  border:5px solid rgb(63, 231, 82);
+  background: rgb(12, 12, 83);
+  
+ }
