@@ -27,12 +27,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #2f363e;
+    background: #96b3df;
  }
  .container
  {
     position:relative;
-    background: #df4547;
+    background:url('https://th.bing.com/th/id/OIP.uki3T5PV9Ah7Fx1g58Pp5wHaEB?w=338&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7') ;
     min-height:500px;
     border-radius: 20px;
     border-top-left-radius: 225px;
@@ -52,7 +52,7 @@
     position:relative;
     width:450px;
     height:450px;
-    background: hsl(60, 2%, 43%);
+    background: url(https://png.pngtree.com/png-vector/20220213/ourmid/pngtree-red-orange-and-purple-template-background-png-image_4387399.png);
     border-radius: 50%;
     box-shadow: 10px 50px 70px rgb(0,0,0,0,25);
     inset: 5px 5px 10px rgb(0,0,0,0,5); 
@@ -65,10 +65,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 220px 105px;
-  font-size: 50px;
+  margin: 150px 50px;
+  font-size: 40px;
   color:rgb(226, 10, 10);
-  border:5px solid rgb(63, 231, 82);
-  background: rgb(12, 12, 83);
+  border:0px solid rgb(63, 231, 82);
+  /* background: rgb(47, 47, 129); */
   
  }
